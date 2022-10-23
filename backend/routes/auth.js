@@ -3,7 +3,7 @@ const authController = require("../controllers/authController");
 const router = require("express").Router();
 const { verifyToken } = require("../controllers/verifyToken");
 
-//REGISTER
+//REGISTER-TL
 router.post("/register", authController.registerUser);
 
 //REFRESH TOKEN
