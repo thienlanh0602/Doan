@@ -33,7 +33,7 @@ const userSlice = createSlice({
             state.users.isFetching = false;
             state.users.error = true;
             state.msg = action.payload;
-        } 
+        }
     }
 })
 
